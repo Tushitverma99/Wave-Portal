@@ -14,7 +14,7 @@ const App = () => {
   const [allWaves, setAllWaves] = useState([]);
   const contractAddress = "0x4a400F42d9F94f56f4Da0cb81e614C368CC93dBE";
 
-  console.log('*', contractABI);
+
    
   const handleClose = () => {
     window.location.reload(false);
@@ -203,7 +203,7 @@ const App = () => {
       }
     };
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    
   }, [])
 
   
